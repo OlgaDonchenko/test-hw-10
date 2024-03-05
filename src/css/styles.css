@@ -1,0 +1,184 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./reset.css');
+@import url('./vite-promo.css');
+@import url('./header.css');
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.wrapper{
+  
+  text-align: center;
+  font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
+    color: #000;
+}
+.timer{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 24px;
+  
+}
+.field{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.start{
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 75px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+
+}
+.active{
+  
+    background: #4e75ff;
+    color: #fff;
+}
+
+.active:hover {
+  background: #6c8cff;
+  color: #fff;
+}
+
+.inactive{
+  background: #cfcfcf;
+  color: #989898;
+    
+}
+
+.inp{
+  width: 272px;
+  height: 40px;
+  border-radius: 8px;
+  padding-left: 16px;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    background-color: #fff;
+    color: #2e2f42;
+    
+}
+
+.inp:focus {
+  border-color: #4e75ff;
+  background-color: #fff;
+  color: #2e2f42;
+}
+#datetime-picker:focus {
+  background-color: #fff;
+  color: #2e2f42;;
+}
+
+
+.value{
+  font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+
+}
+label{
+font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+}
+/* snackbar */
+
+.form {
+    display: flexbox;
+    flex-direction: column;
+    font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+      color: #2e2f42;
+    
+  
+}
+.input-delay{
+  padding-left: 16px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  width: 360px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+}
+
+.input-delay:focus {
+  border-color: #262db1;
+}
+
+.label-delay{
+  display: flex;
+  flex-direction: column;
+}
+.fieldset-state{
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  width: 350px;
+  height: 48px;
+  padding-top: 20px;
+  
+}
+.radio-state{
+  border: 1px solid #757575;
+    border-radius: 14px;
+    width: 20px;
+    height: 20px;
+}
+.button-snackbar{
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 380px;
+    height: 40px;
+    background: #4e75ff;
+    color: #fff;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    border: none;
+}
+.button-snackbar:hover {
+  background: #6c8cff;
+
+}
